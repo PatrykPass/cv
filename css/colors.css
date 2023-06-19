@@ -1,0 +1,13 @@
+.black {
+    background-color: var(--black);
+} 
+.white {
+    background-color: var(--white);
+}
+
+.left-column {
+    color: var(--black);
+}
+.right-column {
+    color: var(--white);
+}     
