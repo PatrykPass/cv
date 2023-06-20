@@ -1,0 +1,98 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact,
+    .skills{
+        width: 75%;
+        text-align: center;
+    }
+}
+ 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+    .contact,
+    .skills{
+        width: 75%;
+        text-align: center;
+}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+    .desktop {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 768px) {
+.mobile {
+    display: flex;
+}
+.desktop{
+    display: none;
+}
+.hero-img-wrapper{
+    align-items: center;
+    margin: 50px 20px;
+}
+.mobile-header{
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+}
+.educadion,
+.experience{
+    margin: 30px 0;
+}
+.orange-bg{
+    width: 100%;
+    padding: 15px 0;
+}
+}
+@media (max-width: 500px) {
+    .row.educadion-item,
+    .row.experience-item{
+        flex-direction: column;
+    }
+    .education-date,
+    .experience-date{
+        width: 100%;
+        margin: 0;
+    }
+    .education-description,
+    .experience-desciption{
+        width: 100%;
+    }
+    .square{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .col-left,
+    .col-right{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    
+    html{
+        font-size: 90%;
+    }
+    .orange-title-bg {
+        width: 36%;
+        padding-left: 220px;
+    }
+    .empty-box{
+        display: none;
+    }
+    .contact{
+        margin-top: 60px; 
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){}

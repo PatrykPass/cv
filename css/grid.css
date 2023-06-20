@@ -1,13 +1,13 @@
 .container {
-    width: 1257px;
+    max-width: 1257px;
     margin: 0 auto;
     min-height: 600px;
     display: flex;
 } 
-.col-left,
+.col-left, 
 .col-right { 
     min-height: 600px;
-    border: 1px solid black;
+    border: 1px solid black; 
 }
 
 .col-left {

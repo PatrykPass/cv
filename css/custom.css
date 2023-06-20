@@ -35,7 +35,7 @@
 .education-description,
 .experience-description { 
     width: 50%;
-}
+} 
 .education-item,
 .experience-item{
     margin: 15px;
@@ -52,7 +52,7 @@
     background-color: var(--orange);
 }
 .container{
-    position: relative;  
+    position: relative;   
 }
 .empty-box{
    min-height: 430px;
